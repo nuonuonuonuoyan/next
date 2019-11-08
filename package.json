@@ -1,7 +1,8 @@
 {
-  "name": "next-create",
-  "version": "0.1.0",
+  "name": "{{name}}",
+  "version": "{{version}}",
   "private": true,
+  "description": "{{description}}",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,5 +19,11 @@
     "react": "16.10.2",
     "react-dom": "16.10.2",
     "react-markdown": "^4.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "{{repository}}"
+  },
+  "author": "{{author}}",
+  "license": "{{license}}"
 }
